@@ -15,7 +15,7 @@ E-commerce platforms collect data about orders, products, customers,
 payments and reviews.  For example, the publicly available Olist
 dataset (used in many analytics projects) contains order dates, product
 details, payment and shipping information, customer and seller IDs and
-customer reviews(717176379544312†L46-L58).  This variety of attributes
+customer reviews(717176379544312 | L46-L58).  This variety of attributes
 supports analyses ranging from revenue and order volumes to
 understanding how customers behave over time.  To perform these
 analyses efficiently it is common to load the raw data into a
@@ -27,7 +27,7 @@ similar structure: customers, sellers, products, category translations,
 orders, order items, order payments and order reviews.  Each order
 includes dates for purchase, approval, shipping and delivery, and each
 payment record contains the payment type and monetary value.  The
-synthetic dataset is small (1 000 orders and roughly 200 customers) but
+synthetic dataset is small (1000 orders and roughly 200 customers) but
 captures realistic relationships between entities, making it suitable
 for demonstration purposes.
 
@@ -86,7 +86,7 @@ tsql_ecommerce_project/
    reproduce the example analyses.  You can modify or extend these
    queries to answer your own business questions.  For example,
    analysts often compute total revenue by month, the most popular
-   product categories or average order value(717176379544312†L76-L166).
+   product categories or average order value(717176379544312 | L76-L166).
 
 ## Results
 
@@ -108,7 +108,7 @@ foundation for deeper analytics.  Possible extensions include:
   datasets, add additional attributes (e.g., customer demographics or
   product descriptions) and perform data cleansing.  The Olist
   dataset includes customer and seller demographics, payment and
-  shipping details and customer reviews(717176379544312†L50-L58).
+  shipping details and customer reviews(717176379544312 | L50-L58).
 * **Slowly changing dimensions** - handle changes over time in
   customer or seller attributes.
 * **Advanced retention analysis** - compute cohort-based retention,
@@ -120,7 +120,7 @@ foundation for deeper analytics.  Possible extensions include:
 
 This project is inspired by the publicly available Brazilian e-commerce
 dataset from Olist.  The dataset contains detailed information about
-orders, products, payments, shipping and reviews(717176379544312†L46-L58).  Our
+orders, products, payments, shipping and reviews(717176379544312 | L46-L58).  Our
 synthetic generator emulates its structure for demonstration purposes.
 
 ---
