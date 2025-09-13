@@ -1,0 +1,3 @@
+Total customers: 199
+Repeat customers (purchased in >1 months): 190
+Retention rate: 95.48%
